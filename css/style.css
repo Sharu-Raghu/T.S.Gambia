@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+#container {
+	background-color: /*#0097A7 #0288D1 #64B5F6*/ #0D47A1 ;
+}
+/*BANNER STYLE*/
+#banner {
+	height: 150px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 10px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border-top-color: #0D47A1;
+}
+
+/*NAVIGATION BAR STYLE*/
+#navbar {
+	background-color: #388E3C;
+	height: 45px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding: 5px;
+}
+
+/*SUB-HEADING STYLE*/
+#subheading {
+	font-family: "Times New Roman", Times, serif;
+	color: #0288D1;
+	text-align:center;
+	background-color: #fff ;
+	height: 30px;
+	width: 1000px;
+	font-size:30px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-weight: bold;
+	padding: 5px;
+	
+}
+
+/*MAIN CONTENT STYLE*/
+#maincontent {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #000;
+	background-color: #FFF;
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	padding: 5px;
+	
+}
+
+#maincontent table {
+	width: 900px;
+	margin-left:90px;
+	margin-top: 10px;		
+}
+/*CONTACT FORM*/
+ /* Style inputs with type="text", select elements and textareas */
+  #maincontent .intouch {
+	max-width:650px;
+	width:700;
+	margin:0 auto;
+	
+	margin-bottom:5px;
+ }
+ #maincontent .intouch h3 {
+	color: #4CAF50;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+	margin:10px;
+ }
+ 
+ #maincontent.intouch h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+	margin-top:10px;
+}
+
+ 
+ #maincontent .contact {
+	max-width:650px;
+	width:700;
+	margin:0 auto;
+	position:relative;
+	margin-bottom:5px;
+ }
+	
+ #maincontent .contact h3 {
+	color: #4CAF50;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#maincontent.contact h4 {
+	margin:5px 0 10px;
+	display:block;
+	font-size:13px;
+	
+}
+
+
+#maincontent .contact input[type="text"], .contact input[type="email"], .contact input[type="phone"], .contact input[type="subject"] .contact textarea, .contact button[type="submit"] {
+	font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+	input[type=text], select, textarea {
+    width: 100%; /* Full width */
+	font-family:"Times New Roman", Times, serif;;
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width:100%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+#maincontent .contact {
+    border-radius: 5px;
+    background-color: #E0E0E0;
+	/*#f2f2f2;*/
+    padding: 20px;
+} 
+
+/*FOOTER STYLES*/
+#footer {
+	background-color: #2E7D32;
+	padding: 5px;
+	height: 175px;
+	width: 1000px;
+	color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+/*SMALL FOOTER STYLE*/
+#smallfooter {
+	font-family: "Times New Roman", Times, serif;
+	color: #757575;
+	font-size:16px;
+	background-color: #FFF;
+	padding: 5px;
+	height: 30px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 10px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #0D47A1;
+}
+#container #footer table tr td a {
+	color: #FFF;
+}
